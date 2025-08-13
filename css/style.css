@@ -629,9 +629,9 @@ border-radius: 2px;
   
   :root{
      --blueColor: #404bbf;
-     --whiteColor: #F4F4FD;;
+     --whiteColor: #F4F4FD;
   }
-  .modal-checkbox-container .visually-hidden:checked~span{
+  .visually-hidden:checked ~ span{
         border: none;
   background-color: var(--blueColor);
    fill: var(--whiteColor);
