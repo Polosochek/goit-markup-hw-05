@@ -456,6 +456,13 @@ background-color:transparent;
 }
 .foot-form-input::placeholder{
     color: #ffffff;
+    font-family: Roboto;
+font-weight: 400;
+font-style: Regular;
+font-size: 12px;
+line-height: 14px;
+letter-spacing: 4%;
+
 }
 .foot-form-button{
     min-width: 165px;
@@ -471,7 +478,6 @@ letter-spacing: 0.04em;
 color: #ffffff;
 cursor: pointer;
 padding: 8px 24px;
-gap: 16px;
  background-color: #4D5AE5;
  border: none;
  border-radius: 4px;
@@ -481,7 +487,12 @@ gap: 16px;
 
 margin-left: 16px;
 }
+
 .modal-window{
+    opacity: 0;
+    pointer-events: none;
+}
+.is-open{
     position: fixed;
     top:0;
     left: 0;
@@ -489,10 +500,12 @@ margin-left: 16px;
     height: 100%;
     background-color:rgba(46, 47, 66, 0.4) ;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+opacity: 1;
+pointer-events: all;
 }
 .modal-window-content{
     position: absolute;
-    transform: translateY(-50%);
+    transform: translate(-50%,-50%);
     top: 50%;
     left: 50%;
     width: 408px;
