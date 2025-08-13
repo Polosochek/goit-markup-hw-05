@@ -627,7 +627,7 @@ border-radius: 2px;
  fill: transparent;
   }
   
-  .modal-checkbox-container input:checked+span{
+  .modal-checkbox-container input:checked~span{
         border: none;
   background-color: var(--blueColor);
    fill: var(--whiteColor);
