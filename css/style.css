@@ -590,7 +590,8 @@ border-color: #4D5AE5;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
- color: (46, 47, 66, 0.4);
+ 
+  color: rgba(46, 47, 66, 0.4);
 border: 1px solid rgba(46, 47, 66, 0.4);
 border-radius: 4px;
 background-color: transparent;
@@ -605,9 +606,7 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .modal-checkbox-container{
     margin-bottom: 24px;
 }
-.modal-checkbox-container-input{
-    visibility: hidden;
-}
+
 .modal-checkbox-container-label{
     font-size: 12px;
     line-height: 1.17;
