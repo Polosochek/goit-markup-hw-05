@@ -433,8 +433,9 @@ color: #ffffff;
 .foot-form{
     display: flex;
     gap: 24px;
-
+        margin-left: auto;
 }
+
 .foot-form-label{
     display: flex;
 }
@@ -631,7 +632,17 @@ border-radius: 2px;
      --blueColor: #404bbf;
      --whiteColor: #F4F4FD;
   }
-  .visually-hidden:checked ~ span{
+  .visually-hidden:checked ~ .modal-checkbox-container-span{
+        border: none;
+  background-color: var(--blueColor);
+   fill: var(--whiteColor);
+  }
+  .visually-hidden:checked .modal-checkbox-container-span {
+        border: none;
+  background-color: var(--blueColor);
+   fill: var(--whiteColor);
+  }
+   .visually-hidden:checked + .modal-checkbox-container-span {
         border: none;
   background-color: var(--blueColor);
    fill: var(--whiteColor);
