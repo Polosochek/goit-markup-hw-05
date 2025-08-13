@@ -632,7 +632,7 @@ border-radius: 2px;
      --blueColor: #404bbf;
      --whiteColor: #F4F4FD;
   }
-  .visually-hidden:checked .modal-checkbox-container-label span{
+  .visually-hidden:checked + .modal-checkbox-container-label span{
         border: none;
   background-color: var(--blueColor);
    fill: var(--whiteColor);
