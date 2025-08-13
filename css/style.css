@@ -518,6 +518,17 @@ padding: 72px 24px 24px 24px;
 background-color: #fcfcfc;
 
 }
+.modal-window-content-p{
+    font-family: Roboto;
+font-weight: 500;
+font-style: Medium;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 2%;
+text-align: center;
+color: #2E2F42;
+
+}
 .modal-window-content-button{
     position: absolute;
     top: 24px;
